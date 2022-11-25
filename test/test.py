@@ -14,9 +14,9 @@ def getRootPath(project_name):
     return rootPath
 
 if __name__ == '__main__':
-    # print(getRootPath('auto-test'))
+    print(getRootPath('auto-test'))
 
-    pass
+    # pass
 
 
 

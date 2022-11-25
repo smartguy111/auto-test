@@ -22,7 +22,7 @@ class Payment:
         """
         with open(xmlMsgPath, encoding='utf-8') as f:
             xml = f.read()
-        # todo tcp/http
+        # TODO tcp/http
         msg = sendMsgByTcp('127.0.0.1', 12333, xml)
 
         # 将响应转为字典格式并返回
