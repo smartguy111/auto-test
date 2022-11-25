@@ -1,0 +1,18 @@
+<?xml version="1.0" ?>
+<service>
+	<SYS_HEAD>
+		<CnsmrCd>300407</CnsmrCd>
+		<ChnlTp>313</ChnlTp>
+		<CnsmrSeqNo/>
+	</SYS_HEAD>
+	<APP_HEAD>
+		<BrchCd>043400</BrchCd>
+	</APP_HEAD>
+	<BODY>
+		<ArvlAcctFlg>HVPS</ArvlAcctFlg>
+		<AtLndrngInfoModStruct>
+			<TrdAreaTranCd>12345678</TrdAreaTranCd>
+		</AtLndrngInfoModStruct>
+		<VrfyPswdFlg>0</VrfyPswdFlg>
+	</BODY>
+</service>

@@ -1,0 +1,16 @@
+<?xml version="1.0" ?>
+<service>
+	<SYS_HEAD>
+		<ChnlTp>111</ChnlTp>
+		<CnsmrCd>11111</CnsmrCd>
+		<CnsmrSeqNo>11111111111111111</CnsmrSeqNo>
+	</SYS_HEAD>
+	<SYS_HEAD>
+		<ChnlTp>222</ChnlTp>
+		<CnsmrCd>22222</CnsmrCd>
+		<CnsmrSeqNo>222222222222222222</CnsmrSeqNo>
+	</SYS_HEAD>
+    <BODY>
+        <test>0</test>
+    </BODY>
+</service>

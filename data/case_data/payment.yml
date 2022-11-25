@@ -1,0 +1,54 @@
+
+
+- desc: 普通贷记01
+  xml:
+    service:
+      SYS_HEAD:
+        CnsmrCd: '300407'
+        ChnlTp: '313'
+        CnsmrSeqNo:
+      APP_HEAD:
+        BrchCd: '043400'
+      BODY:
+        ArvlAcctFlg: NORM
+        AtLndrngInfoModStruct:
+          TrdAreaTranCd: '12345678'
+        VrfyPswdFlg: '0'
+  resp:
+    msg: success!!!
+
+- desc: 普通贷记02
+  xml:
+    service:
+      SYS_HEAD:
+        CnsmrCd: '300407'
+        ChnlTp: '313'
+        CnsmrSeqNo:
+      APP_HEAD:
+        BrchCd: '043400'
+      BODY:
+        ArvlAcctFlg: HVPS
+        AtLndrngInfoModStruct:
+          TrdAreaTranCd: '12345678'
+        VrfyPswdFlg: '0'
+  resp:
+    msg: success!!!
+
+- # 普通贷记
+  desc: 普通贷记03
+  xml:
+    service:
+      SYS_HEAD:
+        CnsmrCd: '300407'
+        ChnlTp: '313'
+        CnsmrSeqNo:
+      APP_HEAD:
+        BrchCd: '043400'
+      BODY:
+        ArvlAcctFlg: IBPS
+        AtLndrngInfoModStruct:
+          TrdAreaTranCd: '12345678'
+        VrfyPswdFlg: '0'
+  resp:
+    msg: success!!!
+

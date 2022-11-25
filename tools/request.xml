@@ -1,0 +1,17 @@
+<?xml version="1.0" ?>
+<service>
+	<APP_HEAD>
+		<BrchCd>043400</BrchCd>
+		<LglCd>043</LglCd>
+		<TlrNo>ABS00001</TlrNo>
+	</APP_HEAD>
+	<SYS_HEAD>
+		<ChnlTp>313</ChnlTp>
+		<CnsmrCd>300407</CnsmrCd>
+		<CnsmrSeqNo>300000102310231231230</CnsmrSeqNo>
+	</SYS_HEAD>
+	<BODY>
+		<OprLng>CHINESE</OprLng>
+		<AtLndrngInfoModStruct>3</AtLndrngInfoModStruct>
+	</BODY>
+</service>

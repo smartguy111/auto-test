@@ -1,0 +1,51 @@
+service:
+  SYS_HEAD:
+    ChnlTp: '313'
+    CnsmrCd: '300407'
+    CnsmrSeqNo: '30040720220509000001110000122584'
+    CnsmrTranDt: '20221111'
+    CnsmrTranTm: '161833'
+    OrigCnsmrCd: '300407'
+    OrigCnsmrSeqNo: '30040720220509000001110000122584'
+    OrigCnsmrTranDt: '20220509'
+    OrigCnsmrTranTm: '161833'
+    SvcCd: '30041000001'
+    SvcScnCd: '01'
+  APP_HEAD:
+    BrchCd: '043400'
+    LglCd: '043'
+    TlrNo: ABS00001
+  BODY:
+    ArvlAcctFlg: NORM
+    AtLndrngInfoModStruct:
+      TranCntprCstChrctrstc: '2'
+      TrdAreaTranCd: '12345678'
+    BsnKndCd: '02102'
+    BsnTp: A100
+    CcyCd: '156'
+    CrnPgRcrdNum: '1'
+    CrnRcrdNum: '1'
+    DbAcctAcctNm: "\u6D88\u8D39\u7C7B\u8F6C\u51FA\u653E\u6B3E\u4ED6\u884C\u79D1\u76EE"
+    DbAcctNo: 0434001562186002050
+    DclrtnTp: '4'
+    ExgLvl: NORM
+    FdcrPymtFlg: '0'
+    InttBrchNo: '043400'
+    MsgChrctrstc: null
+    OprLng: CHINESE
+    PyeAcctNo: '1602003409004400673'
+    PyeNm: "\u5C71\u4E1C\u822A\u7A7A\u80A1\u4EFD\u6709\u9650\u516C\u53F8"
+    PyeOpnAcctBnkNo: '102100099996'
+    PyrAcctNo: '6250955001000032'
+    PyrAcctTp: AT01
+    PyrNm: "\u6613\u5546\u65C5\u6709\u9650\u516C\u53F8"
+    PyrOpnAcctBnkNo: '503290000007'
+    PyrOpnAcctBrchCd: null
+    RcvBnkNo: '102100099996'
+    TranAmt: '0000002525.11'
+    TranMd: ONLINE
+    TranOprtnTp: '00'
+    TranScrnCd: null
+    TranTmstmp: null
+    TurnPgFlg: '0'
+    VrfyPswdFlg: '0'

@@ -1,0 +1,13 @@
+service:
+  SYS_HEAD:
+    CnsmrCd: '300407'
+    ChnlTp: '313'
+    CnsmrSeqNo: 0000000000----0000
+  APP_HEAD:
+    BrchCd: '043400'
+  BODY:
+    AtLndrngInfoModStruct:
+      TrdAreaTranCd: '12345678'
+    VrfyPswdFlg: '0'
+    CnsmrTranDt: '20221111'
+    CnsmrTranTm: '161833'

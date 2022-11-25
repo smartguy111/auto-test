@@ -1,0 +1,11 @@
+service:
+  SYS_HEAD:
+    CnsmrCd: "300407"
+    ChnlTp: "313"
+    CnsmrSeqNo: serialNo
+    CnsmrTranDt: date
+    CnsmrTranTm: time
+  BODY:
+    ArvlAcctFlg: HVPS
+    AtLndrngInfoModStruct:
+      TrdAreaTranCd: '12345678-----1'

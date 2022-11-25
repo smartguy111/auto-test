@@ -1,0 +1,108 @@
+- describe: 请添加案例描述...
+  expectedResponse: '## 请删除此文字，并对应层级关系添加用例返回预期【key：value】...'
+  request:
+    service:
+      APP_HEAD:
+        BrchCd: '043400'
+        LglCd: '043'
+        TlrNo: ABS00001
+      BODY:
+        ArvlAcctFlg: NORM
+        AtLndrngInfoModStruct:
+          TranCntprCstChrctrstc: '2'
+          TrdAreaTranCd: '12345678'
+        BsnKndCd: '02102'
+        BsnTp: A100
+        CcyCd: '156'
+        CrnPgRcrdNum: '1'
+        CrnRcrdNum: '1'
+        DbAcctAcctNm: 消费类转出放款他行科目
+        DbAcctNo: 0434001562186002050
+        DclrtnTp: '4'
+        ExgLvl: NORM
+        FdcrPymtFlg: '0'
+        InttBrchNo: '043400'
+        MsgChrctrstc: null
+        OprLng: CHINESE
+        PyeAcctNo: '1602003409004400673'
+        PyeNm: 山东航空股份有限公司
+        PyeOpnAcctBnkNo: '102100099996'
+        PyrAcctNo: '6250955001000032'
+        PyrAcctTp: AT01
+        PyrNm: 易商旅有限公司
+        PyrOpnAcctBnkNo: '503290000007'
+        PyrOpnAcctBrchCd: null
+        RcvBnkNo: '102100099996'
+        TranAmt: '0000002525.11'
+        TranMd: ONLINE
+        TranOprtnTp: '00'
+        TranScrnCd: null
+        TranTmstmp: null
+        TurnPgFlg: '0'
+        VrfyPswdFlg: '0'
+      SYS_HEAD:
+        ChnlTp: '313'
+        CnsmrCd: '300407'
+        CnsmrSeqNo: '30040720220509000001110000122584'
+        CnsmrTranDt: '20221111'
+        CnsmrTranTm: '161833'
+        OrigCnsmrCd: '300407'
+        OrigCnsmrSeqNo: '30040720220509000001110000122584'
+        OrigCnsmrTranDt: '20220509'
+        OrigCnsmrTranTm: '161833'
+        SvcCd: '30041000001'
+        SvcScnCd: '01'
+- describe: 请添加案例描述...
+  expectedResponse: '## 请删除此文字，并对应层级关系添加用例返回预期【key：value】...'
+  request:
+    service:
+      APP_HEAD:
+        BrchCd: '043400'
+        LglCd: '043'
+        TlrNo: ABS00001
+      BODY:
+        ArvlAcctFlg: HVPS
+        AtLndrngInfoModStruct:
+          TranCntprCstChrctrstc: '2'
+          TrdAreaTranCd: '12345678'
+        BsnKndCd: '02102'
+        BsnTp: A100
+        CcyCd: '156'
+        CrnPgRcrdNum: '1'
+        CrnRcrdNum: '1'
+        DbAcctAcctNm: 消费类转出放款他行科目
+        DbAcctNo: 0434001562186002050
+        DclrtnTp: '4'
+        ExgLvl: NORM
+        FdcrPymtFlg: '0'
+        InttBrchNo: '043400'
+        MsgChrctrstc: null
+        OprLng: CHINESE
+        PyeAcctNo: '1602003409004400673'
+        PyeNm: 山东航空股份有限公司
+        PyeOpnAcctBnkNo: '102100099996'
+        PyrAcctNo: '6250955001000032'
+        PyrAcctTp: AT01
+        PyrNm: 易商旅有限公司
+        PyrOpnAcctBnkNo: '503290000007'
+        PyrOpnAcctBrchCd: null
+        RcvBnkNo: '102100099996'
+        TranAmt: '0000002525.11'
+        TranMd: ONLINE
+        TranOprtnTp: '00'
+        TranScrnCd: null
+        TranTmstmp: null
+        TurnPgFlg: '0'
+        VrfyPswdFlg: '0'
+      SYS_HEAD:
+        ChnlTp: '313'
+        CnsmrCd: '300407'
+        CnsmrSeqNo: '30040720220509000001110000122584'
+        CnsmrTranDt: '20221111'
+        CnsmrTranTm: '161833'
+        OrigCnsmrCd: '300407'
+        OrigCnsmrSeqNo: '30040720220509000001110000122584'
+        OrigCnsmrTranDt: '20220509'
+        OrigCnsmrTranTm: '161833'
+        SvcCd: '30041000001'
+        SvcScnCd: '01'
